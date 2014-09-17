@@ -1,0 +1,41 @@
+How to Run .
+
+1- Open terminal 
+
+  # chmod +x deploy-1.0-linux-installer.bin 
+  # ./deploy-1.0-linux-installer.bin 
+
+2- Go to installation directory 
+
+Run    python deploy.py alpha.mydemo.com  mydemo
+Before running scripts please create home/mydemo_development/database
+
+6- Other Configuration is in config.py  file.
+
+--------------------------------------------------------------
+
+
+1-  Installation on Ubuntu 10.04+
+
+           $ sudo apt-get install python-dev
+           $ sudo apt-get install python-setuptools
+           $ sudo easy_install fabric
+
+
+2-   CentOS/RHEL 6.x
+
+	# yum install gcc python-devel python-setuptools
+	# easy_install pip
+	# pip install fabric
+3- CentOS/RHEL 5.x
+# yum install python26 python26-devel python26-setuptools gcc
+# easy_install-2.6 pip
+# pip install fabric
+4-  Unzip deploy.zip file in  working directory .
+
+5- Open terminal and change path to working directory .
+ Run    python deploy.py alpha.mydemo.com  mydemo
+Before running scripts please create home/mydemo_development/database
+
+6- Other Configuration is in config.py  file.
+	
